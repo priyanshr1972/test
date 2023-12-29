@@ -1,0 +1,179 @@
+/* Responsive CSS for Mobile Phones */
+
+@media screen and (max-width: 450px) {
+
+    .sell-phone-headings {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .sell-phone-hero {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .sell-phone-hero-points {
+        display: none;
+    }
+
+    .sell-phone-hero-search {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .sell-phone-hero-search>input[type="text"] {
+        width: 90%;
+    }
+
+    .sell-phone-hero-img {
+        display: none;
+    }
+
+    .sell-phone-hero-content {
+        justify-content: space-between;
+    }
+
+    .sell-phone-hero-content>h1 {
+        font-size: 2rem;
+    }
+
+    .sell-phone-hero-brands {
+        position: relative;
+        display: flex;
+    }
+
+    .sell-phone-hero-choose-brand {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sell-phone-hero-brand-card:last-child {
+        padding: 16px 40px;
+        position: absolute;
+        left: 0px;
+        top: 150%;
+        border-radius: 1.5rem;
+        border: 1px solid #42C8B7;
+    }
+
+    /* How Cashify Works */
+    .sell-phone-works-cards-container {
+        flex-direction: column;
+    }
+
+    .sell-phone-works-card {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Hot Deals */
+
+    .sell-phone-deals-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    /* Why Us */
+
+    .sell-phone-why-cards-row {
+        flex-direction: column;
+    }
+
+    .sell-phone-deals-card>img {
+        width: 350px;
+    }
+
+    .sell-phone-why-card {
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Top Selling Models */
+
+    .sell-phone-models-section {
+        padding: 0 10px;
+    }
+
+    /* Videos */
+
+    .sell-phone-videos-card {
+        width: 100%;
+    }
+        .sell-phone-videos-card-content>p {
+            padding: 16px 0;
+        }
+
+    .sell-phone-videos-cards-container {
+        flex-direction: column;
+    }
+
+    .sell-phone-videos-card-video>iframe {
+        width: 130%;
+    }
+}
+
+
+
+/* Responsive CSS for Tablets */
+
+@media screen and (min-width:450px) and (max-width:1024px) {
+    .sell-phone-hero-img {
+        display: none;
+    }
+
+    .sell-phone-hero {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .sell-phone-hero-search {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .sell-phone-hero-content {
+        gap: 1rem;
+    }
+
+    /* How cashify works */
+
+    .sell-phone-works-card-content p {
+        font-size: 13px;
+    }
+
+    .sell-phone-works-card-content>h1 {
+        font-size: 20px;
+    }
+
+    .sell-phone-works-card-content>h1>span {
+        margin-right: 10px;
+    }
+
+    .sell-phone-why-cards-row {
+        flex-direction: column;
+    }
+
+    .sell-phone-videos-cards-container {
+        zoom: 60%;
+    }
+
+    .ans>p {
+        font-size: 16px;
+    }
+
+    /* Videos */
+
+    .sell-phone-videos-card-content>h1 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .sell-phone-videos-card-content>p {
+        font-size: 20px;
+    }
+
+
+}

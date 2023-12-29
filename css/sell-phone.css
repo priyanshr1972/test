@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Headings CSS */
+
+.sell-phone-headings {
+    font-size: 1.8rem;
+    padding: 0 50px;
+}
+
+/* Main Container */
+
+.sell-phone-container {
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Hero Section  */
+
+.sell-phone-hero-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sell-phone-hero-nav {
+    width: 80%;
+    margin: 20px 0;
+}
+
+.sell-phone-hero-nav>p>a {
+    text-decoration: none;
+    color: #949494;
+}
+
+.sell-phone-hero {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: #F7F7F7;
+}
+
+.sell-phone-hero-content {
+    flex: 70%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sell-phone-hero-content>h1 {
+    font-size: 3rem;
+}
+
+.sell-phone-hero-points>div > p span {
+    margin-left: 10px;
+}
+
+.sell-phone-hero-points>div p {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.sell-phone-hero-search {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.sell-phone-hero-search>input[type="text"] {
+    width: 50%;
+    border: none;
+    outline: none;
+}
+
+.sell-phone-hero-img {
+    flex: 30%;
+    max-width: fit-content;
+}
+
+.sell-phone-hero-img>img {
+    width: 500px;
+}
+
+.sell-phone-hero-choose-brand {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.sell-phone-hero-choose-brand div {
+    height: 1px;
+    width: 50px;
+    background-color: black;
+}
+
+.sell-phone-hero-brand-card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sell-phone-hero-brand-card:not(:last-child) {
+    margin-right: 15px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.sell-phone-hero-brand-card:last-child {
+    display: inline;
+}
+
+.sell-phone-hero-brand-card>img {
+    width: 70px;
+}
+
+.sell-phone-hero-brand-card >a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* How Cashify Works */
+
+.sell-phone-works-container {
+    margin: 50px 0;
+}
+
+.sell-phone-works-card {
+    width: 500px;
+    height: 380px;
+}
+
+.sell-phone-works-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sell-phone-works-card-img {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sell-phone-works-card-img>img {
+    display: block;
+    width: 100px;
+}
+
+.sell-phone-works-card-content>h1>span {
+    margin: 30px 0;
+}
+
+.sell-phone-works-card-content>h1>span {
+    text-align: center;
+    margin-right: 30px;
+    display: inline-block;
+    height: 1.7rem;
+    width: 1.7rem;
+    color: white;
+    border-radius: 50%;
+    background-color: #d6114c;
+}
+
+.sell-phone-works-card-content p {
+    color: #949494;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Hot Deals */
+
+.sell-phone-deals>h1 {
+    margin: 30px 0;
+}
+
+.sell-phone-deals-cards-container {
+    display: flex;
+    gap: 30px;
+}
+
+.sell-phone-deals-card>img {
+    display: block;
+    width: 300px;
+}
+
+/* Why Us */
+
+.sell-phone-why {
+    margin: 50px 0;
+    background-color: #D9F4F1;
+}
+
+.sell-phone-why>h1 {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.sell-phone-why-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sell-phone-why-cards-row {
+    display: flex;
+}
+
+.sell-phone-why-card {
+    margin: 30px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.sell-phone-why-card-img {
+    margin-right: 10px;
+}
+
+.sell-phone-why-card-img>img {
+    width: 35px;
+}
+
+.sell-phone-why-card-content>h1 {
+    margin: 10px 0;
+}
+
+.sell-phone-why-card-content>p {
+    color: grey;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+/* Videos */
+
+.sell-phone-videos-section {
+    margin: 50px 0;
+}
+
+.sell-phone-videos-section>h1 {
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+
+.sell-phone-videos-cards-container {
+    zoom: 80%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.sell-phone-videos-card {
+    width: 24%;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.sell-phone-videos-card > p {
+    font-size: 20px;
+
+}
+
+.sell-phone-videos-card-content {
+    padding: 16px;
+}
+.sell-phone-videos-card-content > h1 {
+    font-size: 24px;
+}
+.sell-phone-videos-card-content > p {
+    padding: 16px;
+    font-size: 20px;
+}
+
+/* FAQ  */
+
+.sell-phone-faq-container {
+    margin: 50px 0;
+}
+
+.sell-phone-faq-container>h1 {
+    margin-bottom: 30px;
+}
+
+.ques-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sell-phone-faq {
+    padding: 10px 0;
+}
+
+.que,
+.ans {
+    padding: 0 1rem;
+}
+
+.ans {
+    display: none;
+}
+
+.ans>p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.que {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* Top Selling Models */
+
+.sell-phone-models-section {
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.sell-phone-models-section>h1 {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.sell-phone-models-card {
+    display: inline-block;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px; */
+}
+
+.sell-phone-models-card>img {
+    width: 100px;
+    display: block;
+}
+
+.sell-phone-models-card>p {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    font-size: 40px;
+    background-color: #d6114c;
+}
+
+
+
+/* ------------------------////// */
+repairRi_div-74 {
+    justify-content: center;
+    color: #000;
+    align-self: stretch;
+    margin-top: 25px;
+    font: 600 26px/123% Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-74 {
+      max-width: 100%;
+    }
+  }
+  .repairRi_div-75 {
+    align-self: stretch;
+    display: flex;
+    margin-top: 56px;
+    padding-right: 25px;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-75 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-right: 20px;
+      margin-top: 40px;
+    }
+  }
+  .repairRi_div-76 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 39px 32px;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-76 {
+      padding: 0 20px;
+    }
+  }
+  .repairRi_img-22 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 96px;
+    overflow: hidden;
+  }
+  .repairRi_div-77 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    margin-top: 25px;
+    white-space: nowrap;
+    font: 500 12px/133% Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-77 {
+      white-space: initial;
+    }
+  }
+  .repairRi_div-78 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 39px 32px;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-78 {
+      padding: 0 20px;
+    }
+  }
+  .repairRi_img-23 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 96px;
+    overflow: hidden;
+  }
+  .repairRi_div-79 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    margin-top: 25px;
+    white-space: nowrap;
+    font: 500 12px/133% Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-79 {
+      white-space: initial;
+    }
+  }
+  .repairRi_div-80 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 39px 32px;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-80 {
+      padding: 0 20px;
+    }
+  }
+  .repairRi_img-24 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 96px;
+    overflow: hidden;
+  }
+  .repairRi_div-81 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    margin-top: 25px;
+    white-space: nowrap;
+    font: 500 12px/133% Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-81 {
+      white-space: initial;
+    }
+  }
+  .repairRi_div-82 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 39px 32px;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-82 {
+      padding: 0 20px;
+    }
+  }
+  .repairRi_img-25 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 96px;
+    overflow: hidden;
+  }
+  .repairRi_div-83 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    margin-top: 25px;
+    white-space: nowrap;
+    font: 500 12px/133% Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-83 {
+      white-space: initial;
+    }
+  }
+  .repairRi_div-84 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 39px 31px;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-84 {
+      padding: 0 20px;
+    }
+  }
+  .repairRi_img-26 {
+    aspect-ratio: 1.02;
+    object-fit: contain;
+    object-position: center;
+    width: 98px;
+    overflow: hidden;
+  }
+  .repairRi_div-85 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    align-self: stretch;
+    margin-top: 25px;
+    white-space: nowrap;
+    font: 500 12px/133% Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-85 {
+      white-space: initial;
+    }
+  }
+  .repairRi_div-86 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 39px 32px;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-86 {
+      padding: 0 20px;
+    }
+  }
+  .repairRi_img-27 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 96px;
+    overflow: hidden;
+  }
+  .repairRi_div-87 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    margin-top: 25px;
+    white-space: nowrap;
+    font: 500 12px/133% Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-87 {
+      white-space: initial;
+    }
+  }
+  .repairRi_div-88 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 39px 32px;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-88 {
+      padding: 0 20px;
+    }
+  }
+  .repairRi_img-28 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 96px;
+    overflow: hidden;
+  }
+  .repairRi_div-89 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    align-self: stretch;
+    margin-top: 25px;
+    white-space: nowrap;
+    font: 500 12px/133% Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .repairRi_div-89 {
+      white-space: initial;
+    }
+  }
