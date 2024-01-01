@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Refurbhished Produts nav */
+
+.refur-phones-main-container button,
+.refur-phones-main-container input[type="submit"] {
+    cursor: pointer;
+}
+
+.refur-phones-product-nav {
+    margin: 20px 0;
+}
+
+.refur-phones-product-nav>p a {
+    text-decoration: none;
+    color: #949494;
+}
+
+/* Product Slider */
+
+.refur-phones-product-section {
+    padding: 0 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8%;
+}
+
+.refur-phones-product-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 13%;
+}
+
+/* Cart & Buy Now */
+
+.refur-phones-cart-buy {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* border: 1px solid rebeccapurple; */
+}
+
+
+.refur-phones-cart-buy button {
+    width: 45%;
+    padding: 5px 30px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid black;
+}
+
+/* View Producs Slider */
+
+.product-for-img>img,
+.product-nav-img>img {
+    transform: rotate(-90deg);
+}
+
+.product-nav-img {
+    padding: 0 10px;
+}
+
+.product-nav-img>img {
+    border-radius: 8px;
+    border: 2px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.refur-phones-slider-container {
+    transform: rotate(90deg);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    background-color: grey;
+}
+
+
+/* Conten Container */
+
+.refur-phones-condition {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.refur-phones-link {
+    color: #42C8B7;
+    text-decoration: none;
+}
+
+.refur-phones-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: -20%;
+}
+
+.refur-phones-content-row-one {
+    line-height: 28px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.refur-phones-content-reviews {
+    padding: 0 3px;
+    font-size: 13px;
+    width: fit-content;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 0 5px;
+}
+
+.refur-phones-right-heart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.refur-phones-right-heart button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+.refur-phones-ex-offer-heading {
+    /* width: 70%; */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.refur-phones-benefit {
+    margin-top: 20px;
+    /* width: 70%; */
+}
+
+.refur-phones-condition-btns {
+    margin: 10px 0;
+}
+
+.refur-phones-condition-btns button,
+.refur-phones-storage-btns>button {
+    border: 2px solid #42C8B7;
+    font-weight: bolder;
+    font-size: 15px;
+    color: gray;
+    padding: 10px 25px;
+    border-radius: 8px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.refur-phones-content-row-three {
+    width: 70%;
+}
+
+.refur-phones-content-row-five {
+    width: 70%;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    background-color: #F7F7F7;
+}
+
+.refur-phones-ex-offer-card {
+    /* width: 70%; */
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.refur-phones-ex-offer-card>div p {
+    font-size: 12px;
+}
+
+.refur-phones-best-price p:last-child {
+    font-size: 18px;
+    color: #42C8B7;
+    font-weight: bold;
+}
+
+.refur-phones-best-price {
+    border: none;
+    padding: 2px 20px;
+    line-height: 20px;
+    border-radius: 8px;
+}
+
+.refur-phones-ex-offer-card>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.refur-phones-lowest {
+    color: white;
+    padding: 3px 8px;
+    border-radius: 8px;
+    background-color: #1D3D93;
+}
+
+
+/* Select Colors */
+
+.refur-phones-select-color {
+    display: flex;
+    gap: 10px;
+}
+
+.refur-phones-color-btn {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.refur-phones-color-btn>p {
+    color: white;
+    padding: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #42C8B7;
+}
+
+.refur-phones-color-btn>button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+
+.refur-phones-content-row-seven>form {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #949494;
+    justify-content: space-between;
+
+}
+
+.refur-phones-content-row-seven>form input[type="text"],
+.refur-phones-content-row-seven>form input[type="submit"] {
+    border: none;
+    color: #949494;
+    font-size: 18px;
+    background: transparent;
+}
+
+/* Video Section */
+
+.refur-phones-video-section>div iframe {
+    width: 80%;
+}
+
+.refur-phones-video-section div {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 1024px) {
+
+    .refur-phones-product-section {
+        justify-content: center;
+        padding: 0 20px;
+        gap: 10px;
+    }
+
+    .refur-phones-content-row-one,
+    .refur-phones-condition {
+        width: auto;
+    }
+
+    .refur-phones-content-row-three {
+        width: auto;
+    }
+
+    .refur-phones-content-row-seven>form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .refur-phones-product-section {
+        flex-direction: column;
+    }
+
+    .refur-phones-content-container {
+        width: max-content;
+    }
+
+    .refur-phones-slider-container {
+        transform: rotate(0deg);
+    }
+
+    .product-for-img>img,
+    .product-nav-img>img {
+        transform: rotate(0deg);
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    .refur-phones-cart-buy {
+        margin: 10px 0;
+    }
+
+    .refur-phones-cart-buy button {
+        padding: 10px 30px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    body {
+        /* background-color: red; */
+    }
+
+    .refur-phones-product-section {
+        flex-direction: column;
+    }
+
+    .refur-phones-content-container {
+        width: 100%;
+    }
+
+    .refur-phones-product-left {
+        width: 100%;
+    }
+}

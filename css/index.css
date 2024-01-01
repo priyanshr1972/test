@@ -156,6 +156,7 @@ hr {
 .sec_2_dropdowns_outro {
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-top:5vw;
 }
 
 .sec_2_dropdowns {
@@ -239,6 +240,16 @@ hr {
         font-size: 11px
     }
 }
+@media screen and (max-width: 768px) {
+  .crousel_image{
+    margin-top: 10vw;
+  }
+  .prev,
+  .next{
+      margin-top: 20vw;
+    }
+}
+
 
 /* Next & previous buttons */
 .prev,
@@ -257,6 +268,7 @@ hr {
     user-select: none;
     position: absolute;
     background-color: white;
+    margin-top: 5vw;
 
 }
 
@@ -265,7 +277,7 @@ hr {
 }
 
 .next {
-    margin-left: 92vw;
+    margin-left: 96vw;
     margin-right: 4vw;
 }
 
@@ -365,7 +377,7 @@ hr {
 
 @media screen and (max-width: 768px) {
     .card_sec_3 {
-        width: 100%; /* Use full width on smaller screens */
+        width: 90px; /* Use full width on smaller screens */
         max-width: 300px; /* Add a max-width to prevent it from getting too wide */
     }
 
@@ -1035,30 +1047,46 @@ hr {
 
   /*----------------------------- FAQsection start------------------------------------------ */
 
-  .que,
-.ans {
+  .sell-phone-faq-container {
+    margin: 50px 0;
+}
 
-  width: 90%;
-  
+.sell-phone-faq-container>h1 {
+    margin-bottom: 30px;
 }
+
+.ques-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin:0 5vw 0 5vw;
+}
+
+.sell-phone-faq {
+    padding: 10px 0;
+}
+
+.que,
 .ans {
-  display: none;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+    padding: 0 1rem;
 }
+
+.ans {
+    display: none;
+}
+
+.ans>p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
 .que {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 550;
-  font-size: 17px;
-  padding: 0 1rem;
-  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
 
 
 

@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.top-brands-select-models-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* Headings CSS */
+
+.top-brands-headings {
+    font-size: 1.8rem;
+    padding: 0 50px;
+}
+
+/* Main Container */
+
+.top-brands-container {
+    /* overflow: hidden; */
+    padding: 0 20px;
+}
+
+/* Top Brands nav */
+
+.top-brands-hero-nav {
+    width: 80%;
+    margin: 20px 0;
+}
+
+.top-brands-hero-nav>p a {
+    text-decoration: none;
+    color: #949494;
+}
+
+
+/* How Cashify Works */
+
+.top-brands-works-container {
+    margin: 50px 0;
+}
+
+.top-brands-works-card {
+    width: 500px;
+    height: 380px;
+}
+
+.top-brands-works-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-brands-works-card-img {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top-brands-works-card-img>img {
+    display: block;
+    width: 100px;
+}
+
+.top-brands-works-card-content>h1>span {
+    margin: 30px 0;
+}
+
+.top-brands-works-card-content>h1>span {
+    text-align: center;
+    margin-right: 30px;
+    display: inline-block;
+    height: 1.7rem;
+    width: 1.7rem;
+    color: white;
+    border-radius: 50%;
+    background-color: #42C8B7;
+}
+
+.top-brands-works-card-content p {
+    color: #949494;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Top Selling Models */
+
+.top-brands-models-section {
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.top-brands-models-section>h1 {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.top-brands-models-card {
+    display: inline-block;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px; */
+}
+
+.top-brands-models-card>img {
+    width: 100px;
+    display: block;
+}
+
+.top-brands-models-card>p {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    font-size: 20px;
+    background-color: #42C8B7;
+}
+
+
+/* Select Models */
+
+.top-brands-select-models-container {
+    
+    margin: 30px 0;
+}
+
+.top-brands-select-models-cards-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.top-brands-select-models-card {
+    text-align: center;
+    padding: calc(2%);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.top-brands-select-models-card p {
+    margin-top: 10px;
+}
+
+.top-brands-select-models-card>div img {
+    width: 150px;
+}
+
+
+
+/* Responsive CSS */
+
+@media screen and (max-width: 800px) {
+    .top-brands-select-models-card>div img {
+        width: 100px;
+    }
+
+    .top-brands-select-models-card p {
+        font-size: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .top-brands-hero-nav>p {
+        font-size: 13px;
+    }
+
+    .top-brands-select-models-card>div img {
+        width: 80px;
+    }
+
+    .top-brands-select-models-card {
+        margin: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .top-brands-hero-nav>p {
+        font-size: 10px;
+    }
+
+    .top-brands-select-models-cards-row {
+        justify-content: flex-start;
+    }
+
+    .top-brands-select-models-card {
+        margin: 0;
+        box-shadow: none;
+    }
+}
+
+
+
+@media screen and (min-width:450px) and (max-width:1024px) {
+    /* How cashify works */
+
+    .stop-brands-works-card-content p {
+        font-size: 13px;
+    }
+
+    .top-brands-works-card-content>h1 {
+        font-size: 20px;
+    }
+
+    .top-brands-works-card-content>h1>span {
+        margin-right: 10px;
+    }
+
+    .top-brands-why-cards-row {
+        flex-direction: column;
+    }
+}

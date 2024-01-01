@@ -1,0 +1,1731 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buyphonecont {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:0 7%; */
+    /* box-shadow: 0.5rem; */
+}
+
+/* Container for alignment */
+.buycont {
+
+    display: block;
+}
+
+/* Phone card style */
+.buyphonecrad1 {
+    width: 7vw;
+    height: 14vh;
+    border: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    /* box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2); */
+}
+
+/* Image inside phone card */
+.imgoneplusbuy {
+    width: 7vw;
+    height: 14vh;
+    border-radius: 1rem;
+}
+
+/* Header style */
+.buyhead {
+    text-align: center;
+    margin-left: .8rem;
+    font-size: .7rem;
+    color:#707070;
+}
+
+.vibuy{
+    font-size:1.2rem;
+    color:black;
+    font-weight: .2rem;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    /* Your styles for screens with a width between 480px and 768px go here */
+
+    .buyphonecont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .buy56 {
+        display: none;
+    }
+
+    .buyphonecrad1 {
+        width: 15vw;
+        height: 15vh;
+    }
+
+    .imgoneplusbuy {
+        width: 15vw;
+        height: 15vh;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024x) {
+.buy899{
+   display:none;
+}
+
+
+    .buyphonecont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+
+
+
+    /* Your styles for screens with a width between 480px and 768px go here */
+}
+
+@media screen and (orientation:portrait) and (max-width: 480px) {
+
+
+    .buyphonecont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .buy57 {
+        display: none;
+    }
+
+    .buy56 {
+        display: none;
+    }
+
+    .buyphonecrad1 {
+        width: 20vw;
+        height: 15vh;
+    }
+
+    .imgoneplusbuy {
+        width: 20vw;
+        height: 15vh;
+    }
+
+
+
+    /* Your styles for screens with a width between 480px and 768px go here */
+}
+
+/* 
+
+-----------------------------------------------------------
+
+*/
+/* Banner style */
+.buybanner {
+    width: 95vw;
+    margin: 1.5rem;
+    /* height: 15vh; Responsive height using vh */
+    border: 0.2rem;
+    border-radius: 0.8rem;
+    margin-left: 2rem;
+}
+
+.buybanner1 {
+    width: 100%;
+    height: 15vh;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    /* Your styles for screens with a width between 480px and 768px go here */
+    .buybanner1 {
+        width: 110vw;
+        height: 15vh;
+
+    }
+
+    .buybanner {
+        width: 100vw;
+    }
+}
+
+
+
+
+
+@media screen and (orientation:portrait) and (max-width: 480px) {
+
+
+    .buybanner {
+        display:none;
+
+    }
+
+    /* Your styles for screens with a width between 480px and 768px go here */
+}
+
+/*  -------------------------------------------  */
+
+
+/* Phone grid container */
+/* .buyphones4 {
+   display: flex;
+   width: 100%;
+}
+
+/* Individual phone style */
+/* .buyphone1 {
+   width: 22vw; /* Responsive width using vw */
+/* height: 22vw; /* Responsive height using vw */
+/* border: 0.2rem solid black; */
+/* } */
+
+/* Refurbished phone card style */
+
+
+
+
+
+
+.buycardsphone {
+    display: flex;
+    margin: 1rem;
+    /* Responsive margin using rem */
+}
+
+.buyphone34 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 1.6rem;
+    /* Responsive padding using rem */
+    margin: 1rem;
+    /* Responsive margin using rem */
+}
+
+.buybannerphon {
+  margin-top:1rem;
+
+  margin-left: 3.8rem;
+    padding-left: 2.3rem;
+    /* margin-left: 4rem; Responsive margin using rem */
+    font-size: 2rem;
+    font-weight:20px;
+    text-transform: capitalize;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.buyphone09 {
+    font-size: 1.1rem;  
+    color:black;
+}
+
+/* ---------------- banner 3--------- */
+.buyphone_banner3 {
+    width: 95vw;
+    height: 30vh;
+    display: flex;
+    margin: 1rem;
+
+    align-items: center;
+    background-color: wheat;
+
+
+}
+
+
+.banner31 {
+    /* width: 20vw; */
+    margin: 1rem;
+}
+
+.banner32 {
+    width: 20vw;
+    /* margin:1rem; */
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    /* Your styles for screens with a width between 480px and 768px go here */
+    .buyphone_banner3 {
+        width: 100%;
+        align-items: center;
+        height: 2%;
+        /* margin-right:50rem; */
+    }
+
+    .banner31 {
+        width: 100%;
+        margin-right: 3rem;
+    }
+
+    .banner32 {
+        width: 99%;
+        height: 100px;
+        /* justify-content: space-between; */
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .buyphone_banner3 {
+        width: 97%;
+        height: 2%;
+        /* display: flex; */
+        /* justify-content:space-between; */
+        /* align-items: center; */
+
+
+    }
+
+    .banner31 {
+        width: 100%;
+        margin-right: 3rem;
+    }
+
+    .banner32 {
+        width: 95%;
+        height: 5%;
+
+    }
+
+    /* Your styles for screens with a width between 480px and 768px go here */
+}
+
+@media screen and (orientation:portrait) and (max-width: 480px) {
+
+    .buyphone_banner3 {
+       
+ display:none
+
+    }
+
+ 
+
+    /* Your styles for screens with a width between 480px and 768px go here */
+}
+
+
+/* --------------------banner3 end------- */
+/* --------------------banner4 start------------------- */
+.banner4 {
+    /* width:80%; */
+    /* height: 40vh;   */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 4rem;
+   margin-left: 11rem; */
+    align-items: center;
+    /* margin:%; */
+}
+
+
+.buyphonebigcards {
+    width: 32vw;
+    height: 35vh;
+    display: flex;
+    background-color: aqua;
+    margin: 1rem;
+    color: white;
+    font-size: 1rem;
+
+    border-radius: 1.5rem;
+}
+
+
+.smallsection1 {
+    background-color: white;
+    width: 20vw;
+    height: 28vh;
+    margin: 1.5rem;
+    border-radius: 0.9rem;
+}
+
+/* Responsive styles for smallsection2 */
+.smallsection2 {
+    width: 20vw;
+    height: 28vh;
+    /* Adjusted height for better responsiveness */
+    margin: 1.5rem;
+    /* Responsive margin using rem */
+}
+
+/* Responsive styles for smaale */
+.smaale {
+    /* margin: 1.8rem;  */
+    width: 9vw;
+    border: 0.2rem solid green;
+    font-size: 1rem;
+    background-color: green;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+/* Responsive styles for smaillhhpho */
+.smaillhhpho {
+    margin: 1rem;
+    font-size: 1.3rem;
+    /* 25px converted to rem */
+}
+
+.buyimggpk {
+    height: 23vh;
+
+}
+
+.refurbished_sec_style19 {
+    font-size: 1.2rem;
+    text-decoration-line: line-through;
+    color: rgb(112, 112, 112);
+    margin-left: 1rem;
+    /* Responsive margin using rem */
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .banner4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 8%; */
+    }
+
+    .buyphonebigcards {
+        height: 70%;
+        width: 90%;
+    }
+
+
+.smallsection2 {
+    width: 80%;
+    height: 80%;
+}
+
+.smallsection1 {
+    width: 80%;
+    height: 80%;
+    margin-top:5%;
+}
+
+.smalle {
+   width:120%;
+ 
+   
+}
+
+.buyimggpk{
+    width:80%;
+     height:100%
+}
+
+.smaillhhpho{
+   font-size:1rem;
+}
+}
+@media screen and (min-width:480px) and (max-width: 768px) {
+    .banner4 {
+ width: 93%;
+       display:flex;
+       flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+ margin-left: 10%;
+
+
+       
+    }
+    .buyphonebigcards {
+       height: 70%;
+       width: 90%;
+   }
+
+
+.smallsection2 {
+   width: 80%;
+   height: 80%;
+}
+
+.smallsection1 {
+   width: 60%;
+   height: 80%;
+   margin-top:5%;
+}
+
+.smalle {
+  width:40%;
+
+  
+}
+
+.buyimggpk{
+   width:97%;
+    height:100%
+}
+
+.smaillhhpho{
+  font-size:1.2rem;
+}
+}
+
+@media screen and (orientation:portrait) and (max-width: 480px) {
+
+    .banner4 {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ margin-left:14%;
+
+    }
+    .buyphonebigcards {
+       height: 70%;
+       width: 90%;
+   }
+
+
+.smallsection2 {
+   width: 80%;
+   height: 80%;
+}
+
+.smallsection1 {
+   width: 60%;
+   height: 100%;
+   margin-top:5%;
+}
+
+.smaale {
+  width:60%;
+  margin-left:15%;
+
+  
+}
+
+.buyimggpk{
+   width:97%;
+    height:100%
+}
+
+.smaillhhpho{
+  font-size:.7rem;
+}
+}
+
+ .refurbished_sec_style19{
+   font-size:.7rem;
+ }
+/* ------------------------------banner4  end ------------------- */
+
+
+
+/*   banner 5  start */
+
+.buyphonebanner5 {
+    width: 90vw;
+    height: 50vh;
+    align-items: center;
+    margin: 4%;
+
+}
+
+.banner5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   
+
+   .buyphonebanner5{
+       height:60%;
+     margin-left:6%;
+   }
+   .banner5{
+       width:100%;
+       height:60%;
+   }
+ }
+ @media screen and (min-width: 480px) and (max-width: 768px) {
+   .buyphonebanner5{
+    height:20%;
+    margin-left:9%;
+   }
+   .banner5{
+       height:80%;
+   }
+   }
+       
+  
+ 
+ @media screen and (orientation:portrait) and (max-width: 480px) {
+   
+   .buyphonebanner5{
+      height:10%;
+      margin-left:14%;
+   }
+   .banner5{
+  width:90%;
+       height:100%;
+   }
+ }
+
+
+/*  ------------------------------------------------banner 5 end---------------------------------  */
+
+
+/* banner 7 start */
+
+.buyphnban7 {
+    /* width:95vw;
+    height:24vh; */
+    /* border:2rem solid  black;  */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 3rem;
+   /* margin-left: 1rem;  */
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.buyphnb76 {
+     width: 42vw;
+    /* height: 32vh; */
+
+
+    /* margin:.5rem; */
+    /* margin-top: 1rem; */
+    /* margin-left: 1rem; */
+
+}
+
+
+.buyphn87 {
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    /* Styles for screens between 600px and 1200px go here */
+
+  .buyphnban7{
+   /* height:32vh; */
+        display: block;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        /* align-items: center; */
+  }
+
+    .buyphnb76 {
+        
+        margin-left:25%;
+      
+       gap:2rem;
+        height:0%;
+       
+        
+    }
+
+    .buyphn87{
+        width:60vw;
+        height:25vh;
+        
+        /* margin:2%; */
+
+    }
+
+    /* Add more styles as needed */
+}
+
+@media screen and (orientation:portrait) and (max-width: 480px) {
+    /* Styles for screens between 600px and 1200px go here */
+
+    .buyphnban7{
+       display: flex;
+            flex-wrap: wrap;
+            /* margin-left:3.6rem; */
+      }
+
+    .buyphnb76 {
+       
+       margin-left:6.5%;
+
+       /* height:120%; */
+      
+       
+   }
+
+   .buyphn87{
+       width:60vw;
+       
+       margin:1%;
+
+   }
+
+
+    /* Add more styles as needed */
+}
+
+
+
+/* .banne72{
+    width:40vw;
+    height:43vh;
+     background-image: linear-gradient(#0052b0, #b340b3);  
+     background: linear-gradient(to right, red , orange);
+    display: flex;
+   border: 2px solid black; */
+/* margin: 1.4rem;
+    border-radius: 2rem; */
+
+/* 
+}
+.benner721{
+   width:40vw;
+   height:38vh;
+   /* border: 2px solid black;  */
+/* margin: 1.5rem; */
+
+
+/* }
+
+
+.banner722{
+    width:22vh;
+    height:38vh; */
+/* border: 2px solid black;  */
+/* margin-left: 4rem;
+    margin: 1.5rem;
+    
+    
+}
+
+
+.banner72img{
+   width:20vh;
+    height:30vh;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 0px;
+    background-image: none; */
+
+/* }
+.banner7hed{
+    font-size: 2rem;
+    margin-left:2rem;
+    margin-top: 8rem;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: .3rem;
+}
+
+.headbuyphone{
+
+    font-size: 2.2rem;
+    color:aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3rem;
+    margin-left:2rem;
+    letter-spacing: .2rem;
+
+}
+
+.phonebuybut{ */
+/* width:10vw; */
+/* height:8vh;
+      margin-top: 3rem;
+      margin-left: 2rem;
+      background-color:#ffa600;
+      border-radius: 1rem;
+}
+
+.headbuy23{
+    font-size: 1.7rem;
+    text-align: center;
+    text-decoration: none;
+} */
+
+
+
+
+
+/* -------------------- banner 7 end--------------------------------------------------------------------------------------
+*/
+/*  */
+/*  */
+
+
+
+
+/* --------------------------------- shop  by price start-------------------------- */
+
+.shopbuypricevi {
+    /* width:85vw; */
+    height: 22vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:.7rem;
+      
+    
+    /* margin: 2%; */
+}
+
+.shopbyprice22vi {
+    width: 8vw;
+    /* border: 2px solid black; */
+    height: 19vh;
+    margin-left: 1rem;
+    background-color: #D9F4F1;
+    border-radius: .6rem;
+    margin-top:1rem;
+
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* margin-right:1.5rem; */
+}
+
+.buypricebtn {
+    width: 2.6vw;
+    height: 2.5vh;
+    /* border: 2 px solid black; */
+    border-radius: 3rem;
+    margin-left: 1.4rem;
+    background-color: black;
+    color: white;
+    margin-top: .7rem;
+}
+
+.vipoh {
+
+   margin-top:2.6rem;
+    margin-left: 1.4rem;
+    font-size: .7rem;
+    color: black;
+ font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.vipho {
+    margin-left: 1.4rem;
+    color: black;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+     .shopbuypricevi{
+        width:100%
+     }
+     .shopbyprice22vi{
+  width:50%;
+  height:100%
+     }
+     
+     .buyi{
+       display: none;
+     }
+ }
+ @media screen and (min-width: 480px) and (max-width: 768px) {
+   .shopbuypricevi{
+       width:100%;
+         display:flex;
+         flex-wrap: wrap;
+         gap:2rem;
+     }
+     .shopbyprice22vi{
+  width:30%;
+  height:100%
+     }
+     .vipho{
+       width:30%;
+  height:7%;
+     }
+     .vipoh{
+       width:30%;
+       height:7%
+     }
+     .buypricebtn{
+       width:20%;
+  height:13%;
+  margin-top:1.2rem;
+     }
+     .buyi{
+       display: none;
+     }
+ }
+ @media screen and (orientation:portrait) and (max-width: 480px) {
+   .shopbuypricevi{
+       width:80%;
+         display:flex;
+         flex-wrap: wrap;
+         gap:.7rem;
+         margin-left:2rem;
+     }
+     .shopbyprice22vi{
+  width:40%;
+  height:70%;
+  margin-left: 1rem;
+     }
+     .vipho{
+       width:30%;
+  height:5%
+     }
+     .vipoh{
+       width:30%;
+       height:5%
+     }
+     .buypricebtn{
+       width:30%;
+  height:15%;
+  margin-top:1.2rem;
+     }
+     .buyi{
+       display: none;
+     }
+ }
+
+
+/* --------------------------shop buy price end---------- */
+/* -----------------------------------------------rebusrished  start -------------------------------------*/
+
+
+
+
+
+.phonevii2 {
+    /* color: #fff; */
+/* border: 2px solid black; */
+    
+    height:vh;
+    margin-left: 1.6rem; 
+}
+
+.phonebuyvih {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+
+    margin-top: .8rem;
+    /* border: 2px solid black; */
+
+}
+
+.parabuypovi {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    word-spacing: .2rem;
+    margin-top: .5rem;
+    margin-bottom: .4rem;
+
+
+} 
+
+.phonevi1{
+   /* border:2px solid black; */
+   /* width:.5vw; */
+margin-top: 0px;
+   /* margin-left:.2rem; */
+   height: 20vh;
+   margin-top: 0;
+}
+
+.rebusimg{
+   width:10vw;
+   height: 20vh;
+   margin-top:0;
+}
+.buy256{
+   /* border:2px solid black; */
+   margin-top:1.6rem;
+   width: 86vw;
+    height: 16vh;
+   
+    background-color: black;
+    color: white;
+    border-radius: 1.6rem;
+    display: flex;
+  justify-content: center; 
+align-items: center;
+    margin-left: 6.6%;
+    padding:.3rem; 
+    margin-top:2rem;
+    display: flex;
+     
+}
+/* .buysellphonevid{
+   margin-top:2rem;
+   width: 88vw;
+    height: 16vh;
+    border: 2px solid black;
+    /* background-color: black; */
+    /* color: white;
+    border-radius: 1.6rem; */
+    /* display: flex;
+  justify-content: center; 
+align-items: center; */
+    /* margin-left: 6.6%; */
+    /* padding:.3rem; */
+    /* margin-top:2rem; */
+    /* display: flex;
+} */ 
+@media screen and (min-width:768px) and (max-width: 1024px) {
+
+   .buy256{
+
+      width: 100%; 
+      height:10%;
+      margin: 1%;
+      margin-top:2rem;
+
+   }
+  
+
+   
+}
+@media screen and (min-width:480px) and (max-width: 768px) {
+   .buy256{
+       display:none;
+           }
+       
+         
+ }
+
+@media screen and (orientation:portrait) and (max-width: 480px) {
+   .buy256{
+       display:none;
+           }
+       
+           
+ }
+
+ @media screen and (orientation:portrait) and (max-width: 480px) {
+.buybannerphon{
+    font-size: 1.2rem; 
+    text-align: left;    
+}
+
+ }
+
+ @media screen and (min-width:480px) and (max-width: 768px) {
+   .buybannerphon{
+      font-size:1.5rem;
+      text-align: left;
+   }
+
+ }
+
+ @media screen and (min-width:768px) and (max-width: 1024px){
+   .buybannerphon{
+      font-size: 1.8rem;
+      text-align: left;
+   }
+ }
+/*    ----------------------------------rebusrdre end-------------------------------------------- */
+
+/* ----------------------------slider start----------- ---------------------*/
+
+
+
+.buyslider {
+   display:-webkit-box;
+   display:-ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   padding: 4px 16px;
+ }
+ 
+ #cards-container {
+   overflow: hidden;
+   margin: 20px;
+ }
+ 
+ .cards {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   width: 99999px;
+ }
+ 
+ .card {
+   /* Add shadows to create the "card" effect */
+   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   background: #fff;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+   width: 250px;
+   margin: 15px 7.5px;
+ }
+ 
+ .card:hover {
+   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+ }
+ 
+ .card .img {
+   max-width: 150px;
+   height: 150px;
+   display: inline-block;
+ }
+ 
+ #slide-left-container,
+ #slide-right-container {
+   display: none;
+ }
+ 
+ #slide-left-container.active,
+ #slide-right-container.active {
+   display: block;
+   cursor: pointer;
+ }
+ 
+ .slide-left,
+ .slide-right {
+   cursor: pointer;
+   height: 1vw;
+   width: 1vw;
+   padding: 16px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 50%;
+   user-select: none;
+   background-color: white;
+ }
+ 
+ 
+ .slide-left {
+   border-width: 4px 0 0 4px;
+   
+   margin-left: 40%;
+ }
+ 
+ .slide-right {
+   border-width: 4px 4px 0 0;
+   
+   margin-left: 22%;
+ }
+ .slide-left:hover,.slide-right:hover{
+   background-color: lightgray;
+ }
+ .refurbished_sec_style0 {
+   width: 15rem;
+   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+   text-decoration-line: none;
+   padding: 10px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 12px;
+   flex-direction: column;
+   cursor: pointer;
+   display: flex;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   position: relative;
+   text-decoration: none solid rgb(0, 0, 0);
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   color: rgb(0, 0, 0);
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style1 {
+   padding-left: 12px;
+   padding-right: 12px;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 22px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   background-color: rgb(244, 177, 70);
+   border-top-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   justify-content: center;
+   display: flex;
+   margin-bottom: 10px;
+   z-index: 10;
+   top: 0px;
+   left: 0px;
+   position: absolute;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style2 {
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 12rem;
+   height: 165px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   max-width: 100%;
+   display: block;
+   vertical-align: middle;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style3 {
+   font-size: 14px;
+   line-height: 18px;
+   color: rgb(15, 15, 15);
+   height: 36px;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   font-weight: 600;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(15, 15, 15) none 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style4 {
+   gap: 8px;
+   align-items: center;
+   height: 20px;
+   display: flex;
+   margin-top: 12px;
+   margin-bottom: 2px;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style5 {
+   gap: 4px;
+   display: flex;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style6 {
+   background-color: rgba(0, 0, 0, 0);
+   border-style: none;
+   flex-shrink: 0;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   cursor: pointer;
+   appearance: button;
+   background-image: none;
+   text-transform: none;
+   font-family: Inter, system-ui, sans-serif;
+   font-feature-settings: normal;
+   font-variation-settings: normal;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color: rgb(0, 0, 0);
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   border: 0px none rgb(229, 231, 235);
+}
+
+.refurbished_sec_style7 {
+   cursor: default;
+   flex-shrink: 0;
+   width: 1rem;
+   height: 16px;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   max-width: 100%;
+   display: block;
+   vertical-align: middle;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style8 {
+   background-color: rgba(0, 0, 0, 0);
+   border-style: none;
+   flex-shrink: 0;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   cursor: pointer;
+   appearance: button;
+   background-image: none;
+   text-transform: none;
+   font-family: Inter, system-ui, sans-serif;
+   font-feature-settings: normal;
+   font-variation-settings: normal;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color: rgb(0, 0, 0);
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   border: 0px none rgb(229, 231, 235);
+}
+
+.refurbished_sec_style9 {
+   cursor: default;
+   flex-shrink: 0;
+   width: 1rem;
+   height: 16px;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   max-width: 100%;
+   display: block;
+   vertical-align: middle;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style10 {
+   background-color: rgba(0, 0, 0, 0);
+   border-style: none;
+   flex-shrink: 0;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   cursor: pointer;
+   appearance: button;
+   background-image: none;
+   text-transform: none;
+   font-family: Inter, system-ui, sans-serif;
+   font-feature-settings: normal;
+   font-variation-settings: normal;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color: rgb(0, 0, 0);
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   border: 0px none rgb(229, 231, 235);
+}
+
+.refurbished_sec_style11 {
+   cursor: default;
+   flex-shrink: 0;
+   width: 1rem;
+   height: 16px;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   max-width: 100%;
+   display: block;
+   vertical-align: middle;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style12 {
+   background-color: rgba(0, 0, 0, 0);
+   border-style: none;
+   flex-shrink: 0;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   cursor: pointer;
+   appearance: button;
+   background-image: none;
+   text-transform: none;
+   font-family: Inter, system-ui, sans-serif;
+   font-feature-settings: normal;
+   font-variation-settings: normal;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color: rgb(0, 0, 0);
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   border: 0px none rgb(229, 231, 235);
+}
+
+.refurbished_sec_style13 {
+   cursor: default;
+   flex-shrink: 0;
+   width: 1rem;
+   height: 16px;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   max-width: 100%;
+   display: block;
+   vertical-align: middle;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style14 {
+   background-color: rgba(0, 0, 0, 0);
+   border-style: none;
+   flex-shrink: 0;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   cursor: pointer;
+   appearance: button;
+   background-image: none;
+   text-transform: none;
+   font-family: Inter, system-ui, sans-serif;
+   font-feature-settings: normal;
+   font-variation-settings: normal;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color: rgb(0, 0, 0);
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   border: 0px none rgb(229, 231, 235);
+}
+
+.refurbished_sec_style15 {
+   cursor: default;
+   flex-shrink: 0;
+   width: 1rem;
+   height: 16px;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(0, 0, 0) none 0px;
+   max-width: 100%;
+   display: block;
+   vertical-align: middle;
+   box-sizing: border-box;
+   border: 0px solid rgb(229, 231, 235);
+}
+
+.refurbished_sec_style16 {
+   /* font-size: 14px;
+   line-height: 22px; */
+   /* color: rgb(112, 112, 112);
+   font-weight: 500; */
+   /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   outline: rgb(112, 112, 112) none 0px; */
+   /* box-sizing: border-box; */
+   /* border: 0px solid rgb(229, 231, 235); */
+}
+
+.refurbished_sec_style17 {
+   align-items: center;
+   display: flex;
+   margin-bottom: 6px;
+  
+}
+
+.refurbished_sec_style18 {
+   font-size: 16px;
+   
+}
+
+.refurbished_sec_style19 {
+   font-size: 12px;
+   
+   text-decoration-line: line-through;
+   color: rgb(112, 112, 112);
+   margin-left: 10px;
+}
+
+.refurbished_sec_style20 {
+   font-size: 12px;
+   color: #d6114c;
+   font-weight: 500;
+   
+}
+
+.refurbished_sec_style21 {
+   font-size: 12px;
+   color: rgb(255, 255, 255);
+   padding-top: 2px;
+   padding-bottom: 2px;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: rgb(29, 61, 147);
+   border-radius: 6px;
+   max-width: max-content;
+   margin-top: 4px;
+   font-weight: 500;
+  
+}
+.slide-container{
+   max-width: 90vw;
+   width: 100%;
+   padding: 40px 0;
+ }
+ .slide-content{
+   margin: 0 40px;
+   overflow: hidden;
+   border-radius: 25px;
+ }
+ .card{
+   border-radius: 25px;
+   background-color: #FFF;
+ }
+ .image-content,
+ .card-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px 14px;
+ }
+ .image-content{
+   position: relative;
+   row-gap: 5px;
+   padding: 25px 0;
+ }
+ .overlay{
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   background-color: #4070F4;
+   border-radius: 25px 25px 0 25px;
+ }
+ .overlay::before,
+ .overlay::after{
+   content: '';
+   position: absolute;
+   right: 0;
+   bottom: -40px;
+   height: 40px;
+   width: 40px;
+   background-color: #4070F4;
+ }
+ .overlay::after{
+   border-radius: 0 25px 0 0;
+   background-color: #FFF;
+ }
+ .card-image{
+   position: relative;
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   background: #FFF;
+   padding: 3px;
+ }
+ .card-image .card-img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 4px solid #4070F4;
+ }
+ .name{
+   font-size: 18px;
+   font-weight: 500;
+   color: #333;
+ }
+ .description{
+   font-size: 14px;
+   color: #707070;
+   text-align: center;
+ }
+ .button{
+   border: none;
+   font-size: 16px;
+   color: #FFF;
+   padding: 8px 16px;
+   background-color: #4070F4;
+   border-radius: 6px;
+   margin: 14px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+ }
+ .button:hover{
+   background: #265DF2;
+ }
+ 
+ .swiper-navBtn{
+   color: #6E93f7;
+   transition: color 0.3s ease;
+ }
+ .swiper-navBtn:hover{
+   color: #4070F4;
+ }
+ .swiper-navBtn::before,
+ .swiper-navBtn::after{
+   font-size: 38px;
+ }
+ .swiper-button-next{
+   right: 0;
+ }
+ .swiper-button-prev{
+   left: 0;
+ }
+ .swiper-pagination-bullet{
+   background-color: #6E93f7;
+   opacity: 1;
+ }
+ .swiper-pagination-bullet-active{
+   background-color: #4070F4;
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .slide-content{
+     margin: 0 10px;
+   }
+   .swiper-navBtn{
+     display: none;
+   }
+ }
+/* ------------------slider end- section-6------------- */
+
+
+
+
+/*  ----------------crosal cont strt */
+.mySlides {
+   display: none;
+   border-radius: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+   width: 80vw;
+   height: 100%;
+   max-height: 50vh;
+   margin-left: 3rem;
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+
+   height: 5px;
+   width: 24px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 15%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+
+}
+
+
+
+/* Fading animation */
+/* .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+   from {
+       opacity: .4
+   }
+
+   to {
+       opacity: 1
+   }
+}
+
+@keyframes fade {
+   from {
+       opacity: .4
+   }
+
+   to {
+       opacity: 1
+   }
+} */
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+   .prev,
+   .next,
+   .text {
+       font-size: 11px
+   }
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+   cursor: pointer;
+   height: 1vw;
+   width: 1vw;
+   padding: 16px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 50%;
+   user-select: none;
+   position: absolute;
+   background-color: white;
+
+}
+
+.prev {
+   margin-left: 2vw;
+}
+
+.next {
+   margin-left: 96.2vw;
+   margin-right: 4vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+   background-color: lightgray;
+}
+
+.crousel_buy {
+   padding: 30px 0 30px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.crousel_image {
+   width: 94vw;
+   height: 50vh;
+   border-radius: 10px;
+}
+/* -----------crosal cont end
+ */
